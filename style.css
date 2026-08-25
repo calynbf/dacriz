@@ -196,13 +196,20 @@ body.home .site-header .custom-logo { transition: opacity .22s ease; }
 .dacriz-diseno-impresion { --inner-accent:#ec8b4b; --inner-accent-soft:#ffd178; }
 .dacriz-paneles-publicitarios { --inner-accent:#18a9bf; --inner-accent-soft:#72e1d1; }
 
-.dacriz-inner-premium .site-header { position:absolute;inset:0 0 auto;z-index:100;width:100%;background:transparent;box-shadow:none; }
+.dacriz-inner-premium .site-header { position:absolute!important;inset:0 0 auto;z-index:100;width:100%;background:transparent!important;box-shadow:none!important; }
+.dacriz-inner-premium .site-header:not(.scrolled) .site-header-wrap,
+.dacriz-inner-premium .site-header:not(.scrolled) .site-header-inner-wrap,
+.dacriz-inner-premium .site-header:not(.scrolled) .site-header-upper-wrap,
+.dacriz-inner-premium .site-header:not(.scrolled) .site-main-header-wrap,
+.dacriz-inner-premium .site-header:not(.scrolled) .site-header-row-container-inner { background:transparent!important; }
 .dacriz-inner-premium .site-header .site-branding a.brand { min-width:205px;background:url('assets/img/branding/dacriz-logo-light.png') center/contain no-repeat; }
 .dacriz-inner-premium .site-header:not(.scrolled) .custom-logo { opacity:0; }
 .dacriz-inner-premium .site-header:not(.scrolled) .header-navigation a,
 .dacriz-inner-premium .site-header:not(.scrolled) .menu-toggle-open,
 .dacriz-inner-premium .site-header:not(.scrolled) .menu-toggle-open .menu-toggle-icon { color:#fff; }
-.dacriz-inner-premium .site-header.scrolled { position:fixed;background:rgba(255,255,255,.94);box-shadow:0 8px 30px rgba(7,24,39,.08);backdrop-filter:blur(14px);animation:headerEnter .3s ease both; }
+.dacriz-inner-premium .site-header.scrolled { position:fixed!important;background:rgba(255,255,255,.94)!important;box-shadow:0 8px 30px rgba(7,24,39,.08)!important;backdrop-filter:blur(14px);animation:headerEnter .3s ease both; }
+.dacriz-inner-premium .site-header.scrolled .site-main-header-wrap,
+.dacriz-inner-premium .site-header.scrolled .site-header-row-container-inner { background:rgba(255,255,255,.94)!important; }
 .dacriz-inner-premium .site-header.scrolled .site-branding a.brand { background-image:none; }
 .dacriz-inner-premium .site-header .custom-logo { transition:opacity .22s ease; }
 
