@@ -48,6 +48,32 @@
      * Animaciones al hacer scroll (Intersection Observer)
      */
     function initScrollAnimations() {
+        var revealElements = document.querySelectorAll('[data-reveal]');
+
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            revealElements.forEach(function(el) {
+                el.classList.add('is-visible');
+            });
+        } else if ('IntersectionObserver' in window) {
+            var revealObserver = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        revealObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.12, rootMargin: '0px 0px -35px 0px' });
+
+            revealElements.forEach(function(el, index) {
+                el.style.transitionDelay = Math.min(index % 4, 3) * 70 + 'ms';
+                revealObserver.observe(el);
+            });
+        } else {
+            revealElements.forEach(function(el) {
+                el.classList.add('is-visible');
+            });
+        }
+
         if ('IntersectionObserver' in window) {
             var animatedElements = document.querySelectorAll('.service-card, .process-step, .testimonial-card, .pricing-card, .feature-item');
             
