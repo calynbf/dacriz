@@ -410,6 +410,13 @@ function dacriz_body_classes($classes) {
     if (is_front_page()) {
         $classes[] = 'dacriz-home';
     }
+
+    $page_template = get_page_template_slug();
+    if ($page_template && 0 === strpos($page_template, 'page-templates/template-')) {
+        $template_name = basename($page_template, '.php');
+        $classes[] = 'dacriz-inner-premium';
+        $classes[] = sanitize_html_class('dacriz-' . str_replace('template-', '', $template_name));
+    }
     
     return $classes;
 }

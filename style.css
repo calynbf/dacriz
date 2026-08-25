@@ -187,6 +187,179 @@ body.home .site-header .custom-logo { transition: opacity .22s ease; }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}[data-reveal]{opacity:1;transform:none}}
 
 /* ==========================================================================
+   PÁGINAS INTERIORES 2026 — SISTEMA EDITORIAL DACRIZ
+   ========================================================================== */
+.dacriz-inner-premium { --inner-accent:#32bad2; --inner-accent-soft:#72e1d1; background:#fff; }
+.dacriz-ads { --inner-accent:#ff756b; --inner-accent-soft:#ffc1a6; }
+.dacriz-growth-ia { --inner-accent:#8b7cff; --inner-accent-soft:#5ce2d1; }
+.dacriz-diseno-grafico { --inner-accent:#ef6b9a; --inner-accent-soft:#ffc85d; }
+.dacriz-diseno-impresion { --inner-accent:#ec8b4b; --inner-accent-soft:#ffd178; }
+.dacriz-paneles-publicitarios { --inner-accent:#18a9bf; --inner-accent-soft:#72e1d1; }
+
+.dacriz-inner-premium .site-header { position:absolute;inset:0 0 auto;z-index:100;width:100%;background:transparent;box-shadow:none; }
+.dacriz-inner-premium .site-header .site-branding a.brand { min-width:205px;background:url('assets/img/branding/dacriz-logo-light.png') center/contain no-repeat; }
+.dacriz-inner-premium .site-header:not(.scrolled) .custom-logo { opacity:0; }
+.dacriz-inner-premium .site-header:not(.scrolled) .header-navigation a,
+.dacriz-inner-premium .site-header:not(.scrolled) .menu-toggle-open,
+.dacriz-inner-premium .site-header:not(.scrolled) .menu-toggle-open .menu-toggle-icon { color:#fff; }
+.dacriz-inner-premium .site-header.scrolled { position:fixed;background:rgba(255,255,255,.94);box-shadow:0 8px 30px rgba(7,24,39,.08);backdrop-filter:blur(14px);animation:headerEnter .3s ease both; }
+.dacriz-inner-premium .site-header.scrolled .site-branding a.brand { background-image:none; }
+.dacriz-inner-premium .site-header .custom-logo { transition:opacity .22s ease; }
+
+.dacriz-inner-premium .service-hero,
+.dacriz-inner-premium .dacriz-hero {
+    position:relative;isolation:isolate;overflow:hidden;min-height:520px;display:flex;align-items:center;
+    padding:150px 0 105px!important;background:linear-gradient(135deg,#071827 0%,#0a2b3e 65%,#0a3446 100%)!important;
+}
+.dacriz-inner-premium .service-hero::before,
+.dacriz-inner-premium .dacriz-hero::before { content:"";position:absolute;inset:0;z-index:-2;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:64px 64px;mask-image:linear-gradient(to bottom,#000,transparent); }
+.dacriz-inner-premium .service-hero::after,
+.dacriz-inner-premium .dacriz-hero::after { content:"";position:absolute;z-index:-1;width:570px;height:570px;right:-180px;top:-230px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--inner-accent) 28%,transparent),transparent 68%);filter:blur(3px); }
+.dacriz-inner-premium .service-hero .hero-content,
+.dacriz-inner-premium .dacriz-hero .section-title { max-width:880px!important;margin:0 auto!important;text-align:center; }
+.dacriz-inner-premium .service-badge { padding:0 0 0 39px!important;background:transparent!important;border-radius:0!important;color:var(--inner-accent-soft)!important;letter-spacing:.13em;text-transform:uppercase;font-size:.74rem!important;position:relative; }
+.dacriz-inner-premium .service-badge::before { content:"";position:absolute;left:0;top:50%;width:27px;height:1px;background:currentColor; }
+.dacriz-inner-premium .service-hero h1,
+.dacriz-inner-premium .dacriz-hero h1 { margin:20px auto!important;max-width:850px;color:#fff!important;font-size:clamp(2.75rem,5vw,4.65rem)!important;line-height:1.03!important;letter-spacing:-.05em;font-weight:750; }
+.dacriz-inner-premium .service-hero .hero-content>p,
+.dacriz-inner-premium .dacriz-hero .section-title>p { max-width:720px;margin:0 auto 28px!important;color:rgba(231,244,247,.69)!important;font-size:1.08rem!important;line-height:1.75!important; }
+.dacriz-inner-premium .service-hero .btn-group { display:flex;justify-content:center;gap:12px!important;margin:31px 0 28px!important; }
+.dacriz-inner-premium .service-hero .btn-primary { padding:14px 24px!important;border-radius:8px!important;background:var(--inner-accent)!important;color:#071827!important;box-shadow:0 15px 32px color-mix(in srgb,var(--inner-accent) 22%,transparent); }
+.dacriz-inner-premium .service-hero .btn-outline { padding:14px 24px!important;border:1px solid rgba(255,255,255,.24)!important;border-radius:8px!important;background:rgba(255,255,255,.04)!important;color:#fff!important; }
+.dacriz-inner-premium .hero-features { gap:0!important;margin-top:28px; }
+.dacriz-inner-premium .hero-features>span { padding:0 22px;border-left:1px solid rgba(255,255,255,.15);font-size:.82rem!important; }
+.dacriz-inner-premium .hero-features>span:first-child { border-left:0; }
+
+.dacriz-inner-premium .dacriz-section { padding:100px 0!important; }
+.dacriz-inner-premium .dacriz-section-light { background:#f6f9fa!important; }
+.dacriz-inner-premium .dacriz-section-dark { background:linear-gradient(145deg,#071827,#0b2d40)!important; }
+.dacriz-inner-premium .section-title { margin-bottom:52px!important; }
+.dacriz-inner-premium .section-title h2 { margin:0 0 14px!important;color:#102331;font-size:clamp(2.15rem,3.6vw,3.2rem)!important;line-height:1.08;letter-spacing:-.04em; }
+.dacriz-inner-premium .section-title p { max-width:680px!important;color:#657681!important;line-height:1.7; }
+.dacriz-inner-premium .row { gap:18px!important;margin:0!important; }
+.dacriz-inner-premium .row>.col { padding:0!important; }
+
+.dacriz-inner-premium .home-services-grid { gap:18px;margin-top:0; }
+.dacriz-inner-premium .home-service-card,
+.dacriz-inner-premium .service-card,
+.dacriz-inner-premium .benefit-card,
+.dacriz-inner-premium .use-case-card,
+.dacriz-inner-premium .faq-item {
+    position:relative;overflow:hidden;border:1px solid rgba(16,35,49,.1)!important;border-radius:14px!important;background:#fff!important;
+    box-shadow:none!important;transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease!important;
+}
+.dacriz-inner-premium .home-service-card { padding:32px!important; }
+.dacriz-inner-premium .service-card { padding:36px!important;text-align:left!important; }
+.dacriz-inner-premium .benefit-card { padding:32px 26px!important; }
+.dacriz-inner-premium .use-case-card { padding:29px!important; }
+.dacriz-inner-premium .faq-item { padding:27px 29px!important; }
+.dacriz-inner-premium .home-service-card:hover,
+.dacriz-inner-premium .service-card:hover,
+.dacriz-inner-premium .benefit-card:hover,
+.dacriz-inner-premium .use-case-card:hover,
+.dacriz-inner-premium .faq-item:hover { transform:translateY(-6px)!important;border-color:color-mix(in srgb,var(--inner-accent) 55%,white)!important;box-shadow:0 24px 55px rgba(7,24,39,.09)!important; }
+.dacriz-inner-premium .service-icon,
+.dacriz-inner-premium .service-card .icon { width:55px;height:55px;margin:0 0 24px!important;border-radius:12px!important;background:color-mix(in srgb,var(--inner-accent) 12%,white)!important; }
+.dacriz-inner-premium .service-icon svg,
+.dacriz-inner-premium .service-card .icon svg { width:27px;height:27px;stroke:var(--inner-accent)!important;color:var(--inner-accent)!important; }
+.dacriz-inner-premium .home-service-card h3,
+.dacriz-inner-premium .service-card h3 { color:#102331;font-size:1.42rem;font-weight:700;letter-spacing:-.02em; }
+.dacriz-inner-premium .home-service-card p,
+.dacriz-inner-premium .service-card p,
+.dacriz-inner-premium .use-case-card p,
+.dacriz-inner-premium .benefit-card p { color:#657681;line-height:1.65; }
+.dacriz-inner-premium .benefit-number { color:var(--inner-accent);font-size:2.65rem;letter-spacing:-.055em; }
+.dacriz-inner-premium .service-price { border-color:rgba(16,35,49,.1)!important; }
+.dacriz-inner-premium .service-price strong { color:var(--inner-accent)!important; }
+.dacriz-inner-premium .toggle-details-btn { border:1px solid color-mix(in srgb,var(--inner-accent) 55%,white)!important;color:var(--inner-accent)!important;border-radius:7px!important; }
+.dacriz-inner-premium .package-details { background:#f5f9fa!important;border-radius:9px!important; }
+
+.dacriz-inner-premium .process-simple,
+.dacriz-inner-premium .process-steps { position:relative;gap:0; }
+.dacriz-inner-premium .process-simple::before { content:"";position:absolute;left:8%;right:8%;top:22px;height:1px;background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--inner-accent) 50%,white),transparent); }
+.dacriz-inner-premium .process-simple-step,
+.dacriz-inner-premium .process-step { position:relative;padding:0 18px; }
+.dacriz-inner-premium .step-num,
+.dacriz-inner-premium .process-step .number { position:relative;width:44px;height:44px;margin:0 auto 20px;background:#fff;color:var(--inner-accent);border:1px solid var(--inner-accent);font-size:.8rem;box-shadow:0 0 0 8px #fff; }
+.dacriz-inner-premium .dacriz-section-light .step-num { box-shadow:0 0 0 8px #f6f9fa; }
+.dacriz-inner-premium .process-simple-step h4,
+.dacriz-inner-premium .process-step h3 { color:#102331;font-size:1.1rem; }
+
+.dacriz-inner-premium .dacriz-cta { position:relative;isolation:isolate;overflow:hidden;padding:105px 0!important;background:linear-gradient(135deg,#071827,#0a3042)!important; }
+.dacriz-inner-premium .dacriz-cta::before { content:"";position:absolute;z-index:-1;inset:0;background:radial-gradient(circle at 50% 130%,color-mix(in srgb,var(--inner-accent) 25%,transparent),transparent 48%); }
+.dacriz-inner-premium .dacriz-cta h2 { font-size:clamp(2.4rem,4.5vw,4rem)!important;line-height:1.05;letter-spacing:-.045em; }
+.dacriz-inner-premium .dacriz-cta .btn-white { color:#071827!important;background:var(--inner-accent)!important; }
+
+/* Servicios: mosaico editorial, no catálogo repetitivo. */
+.dacriz-servicios .dacriz-section:nth-of-type(2) .row,
+.dacriz-servicios .dacriz-section:nth-of-type(3) .row { display:grid;grid-template-columns:repeat(6,1fr); }
+.dacriz-servicios .dacriz-section:nth-of-type(2) .col,
+.dacriz-servicios .dacriz-section:nth-of-type(3) .col { grid-column:span 3!important; }
+.dacriz-servicios .dacriz-section:nth-of-type(3) .col { grid-column:span 2!important; }
+.dacriz-servicios .service-card .btn-primary { margin-top:auto!important;width:max-content; }
+.dacriz-servicios .service-card { display:flex;flex-direction:column;min-height:420px; }
+
+/* Nosotros: más editorial, métricas y relato con ritmo. */
+.dacriz-nosotros .dacriz-section:nth-of-type(2) .row { align-items:center;gap:70px!important; }
+.dacriz-nosotros .dacriz-section:nth-of-type(2) .col:first-child { flex:0 0 42%!important; }
+.dacriz-nosotros .dacriz-section:nth-of-type(2) .col:last-child { flex:1!important; }
+.dacriz-nosotros .feature-item { margin-bottom:26px; }
+.dacriz-nosotros .feature-item .check { background:transparent;border:1px solid var(--inner-accent);color:var(--inner-accent); }
+.dacriz-nosotros .feature-item .check svg { color:var(--inner-accent); }
+.dacriz-nosotros .dacriz-section-dark .service-card { background:rgba(255,255,255,.045)!important;border-color:rgba(255,255,255,.11)!important; }
+.dacriz-nosotros .dacriz-section-dark .service-card h3,.dacriz-nosotros .dacriz-section-dark .service-card p { color:#fff; }
+
+/* Contacto: panel oscuro + formulario limpio y protagonista. */
+.dacriz-contacto .dacriz-section:nth-of-type(2) { background:linear-gradient(90deg,#071827 0 43%,#f6f9fa 43% 100%)!important; }
+.dacriz-contacto .dacriz-section:nth-of-type(2)>.container>.row { display:grid;grid-template-columns:.8fr 1.2fr;gap:75px!important;align-items:start; }
+.dacriz-contacto .dacriz-section:nth-of-type(2) .col { margin:0!important;flex:auto!important; }
+.dacriz-contacto .dacriz-section:nth-of-type(2) .col:first-child,.dacriz-contacto .dacriz-section:nth-of-type(2) .col:first-child h2,.dacriz-contacto .dacriz-section:nth-of-type(2) .col:first-child h3 { color:#fff; }
+.dacriz-contacto .dacriz-section:nth-of-type(2) .col:first-child p { color:rgba(255,255,255,.62)!important; }
+.dacriz-contacto .contact-form { padding:42px;border:1px solid rgba(16,35,49,.1);border-radius:15px;box-shadow:0 30px 75px rgba(7,24,39,.12); }
+.dacriz-contacto .contact-form input,.dacriz-contacto .contact-form select,.dacriz-contacto .contact-form textarea { border:1px solid #d9e3e7;border-radius:8px;background:#fbfcfc; }
+.dacriz-contacto .contact-form input:focus,.dacriz-contacto .contact-form select:focus,.dacriz-contacto .contact-form textarea:focus { border-color:var(--inner-accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--inner-accent) 12%,transparent);background:#fff; }
+
+/* Portafolio: galería sobria con imágenes protagonistas. */
+.dacriz-portfolio .portfolio-tabs { justify-content:center;border:0;gap:8px; }
+.dacriz-portfolio .portfolio-tab { padding:9px 17px;border:1px solid #dce5e8;border-radius:999px;box-shadow:none; }
+.dacriz-portfolio .portfolio-tab.active { background:#102331;border-color:#102331; }
+.dacriz-portfolio .portfolio-grid { grid-template-columns:repeat(12,1fr);gap:22px; }
+.dacriz-portfolio .portfolio-item { grid-column:span 6; }
+.dacriz-portfolio .portfolio-item:nth-child(3n+1) { grid-column:span 7; }
+.dacriz-portfolio .portfolio-item:nth-child(3n+2) { grid-column:span 5; }
+.dacriz-portfolio .portfolio-card { border:1px solid rgba(16,35,49,.1);border-radius:14px;box-shadow:none; }
+.dacriz-portfolio .portfolio-image { aspect-ratio:16/9; }
+.dacriz-portfolio .portfolio-content { padding:27px; }
+.dacriz-portfolio .portfolio-category-badge { border-radius:4px;background:#e9f7f8; }
+
+/* Libro: conserva formalidad, mejora legibilidad. */
+.dacriz-libro-reclamaciones .libro-form { padding:42px!important;border:1px solid rgba(16,35,49,.1)!important;border-radius:15px!important;background:#fff!important;box-shadow:0 25px 65px rgba(7,24,39,.08)!important; }
+.dacriz-libro-reclamaciones .form-section { padding-bottom:28px;margin-bottom:32px;border-bottom:1px solid rgba(16,35,49,.1); }
+.dacriz-libro-reclamaciones input,.dacriz-libro-reclamaciones select,.dacriz-libro-reclamaciones textarea { border:1px solid #d7e2e6!important;border-radius:8px!important; }
+
+@media(max-width:900px){
+ .dacriz-inner-premium .service-hero,.dacriz-inner-premium .dacriz-hero{min-height:470px;padding:130px 0 82px!important}
+ .dacriz-contacto .dacriz-section:nth-of-type(2){background:linear-gradient(#071827 0 38%,#f6f9fa 38% 100%)!important}
+ .dacriz-contacto .dacriz-section:nth-of-type(2)>.container>.row{grid-template-columns:1fr;gap:70px!important}
+ .dacriz-servicios .dacriz-section:nth-of-type(3) .col{grid-column:span 3!important}
+ .dacriz-portfolio .portfolio-item,.dacriz-portfolio .portfolio-item:nth-child(n){grid-column:span 6}
+}
+@media(max-width:700px){
+ .dacriz-inner-premium .service-hero,.dacriz-inner-premium .dacriz-hero{min-height:440px;padding:120px 0 70px!important}
+ .dacriz-inner-premium .service-hero h1,.dacriz-inner-premium .dacriz-hero h1{font-size:2.55rem!important}
+ .dacriz-inner-premium .service-hero .btn-group{flex-direction:column}.dacriz-inner-premium .service-hero .btn-group a{width:100%}
+ .dacriz-inner-premium .hero-features{display:grid!important;grid-template-columns:1fr!important;gap:9px!important}.dacriz-inner-premium .hero-features>span{border:0;padding:0!important;justify-content:center}
+ .dacriz-inner-premium .dacriz-section{padding:70px 0!important}.dacriz-inner-premium .section-title{margin-bottom:38px!important}
+ .dacriz-inner-premium .process-simple::before{display:none}.dacriz-inner-premium .process-simple{grid-template-columns:1fr;gap:35px}
+ .dacriz-servicios .dacriz-section:nth-of-type(2) .row,.dacriz-servicios .dacriz-section:nth-of-type(3) .row{grid-template-columns:1fr}.dacriz-servicios .dacriz-section:nth-of-type(2) .col,.dacriz-servicios .dacriz-section:nth-of-type(3) .col{grid-column:auto!important}
+ .dacriz-servicios .service-card{min-height:auto}
+ .dacriz-nosotros .dacriz-section:nth-of-type(2) .row{gap:35px!important}.dacriz-nosotros .dacriz-section:nth-of-type(2) .col{flex:0 0 100%!important}
+ .dacriz-contacto .dacriz-section:nth-of-type(2){background:linear-gradient(#071827 0 35%,#f6f9fa 35% 100%)!important}.dacriz-contacto .contact-form{padding:25px}
+ .dacriz-portfolio .portfolio-grid{grid-template-columns:1fr}.dacriz-portfolio .portfolio-item,.dacriz-portfolio .portfolio-item:nth-child(n){grid-column:auto}
+ .dacriz-libro-reclamaciones .libro-form{padding:24px!important}
+}
+
+/* ==========================================================================
    TIPOGRAFÍA
    ========================================================================== */
 
