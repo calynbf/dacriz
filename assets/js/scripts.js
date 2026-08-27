@@ -154,6 +154,40 @@
     }
 
     /**
+     * Navegación móvil del sistema Conbiz adaptado.
+     */
+    function initConbizMobileMenu() {
+        var toggle = document.querySelector('.conbiz-menu-toggle');
+        var close = document.querySelector('.conbiz-menu-close');
+        var panel = document.querySelector('.conbiz-mobile-panel');
+        var overlay = document.querySelector('.conbiz-mobile-overlay');
+
+        if (!toggle || !panel || !overlay) {
+            return;
+        }
+
+        function setMenu(open) {
+            panel.classList.toggle('is-open', open);
+            overlay.classList.toggle('is-open', open);
+            panel.setAttribute('aria-hidden', open ? 'false' : 'true');
+            toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+            document.body.style.overflow = open ? 'hidden' : '';
+        }
+
+        toggle.addEventListener('click', function() { setMenu(true); });
+        overlay.addEventListener('click', function() { setMenu(false); });
+        if (close) {
+            close.addEventListener('click', function() { setMenu(false); });
+        }
+        panel.querySelectorAll('a').forEach(function(link) {
+            link.addEventListener('click', function() { setMenu(false); });
+        });
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') { setMenu(false); }
+        });
+    }
+
+    /**
      * Validación de formularios
      */
     function initFormValidation() {
@@ -374,6 +408,7 @@
     $(document).ready(function() {
         initSmoothScroll();
         initMobileMenu();
+        initConbizMobileMenu();
         initFormValidation();
         initTabs();
         initAccordion();
