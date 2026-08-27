@@ -2355,8 +2355,21 @@ transform: translateY(-1px);
         font-size: 1.5rem;
     }
     
-    .portfolio-modal-close {
+.portfolio-modal-close {
         top: 10px;
         right: 10px;
     }
 }
+
+/* Ajustes de consistencia posteriores a los estilos heredados. */
+.dacriz-inner-premium .service-hero .btn-primary {
+    background: var(--cb-orange) !important;
+    color: #fff !important;
+    box-shadow: 0 10px 24px rgba(255, 79, 34, .22) !important;
+}
+.dacriz-inner-premium .service-hero .btn-primary:hover { background: var(--cb-orange-dark) !important; }
+.dacriz-inner-premium .service-hero .btn-outline { border-color: rgba(255,255,255,.4) !important; color: #fff !important; }
+.dacriz-inner-premium .link-arrow,
+.dacriz-inner-premium .card-link { color: var(--cb-orange) !important; }
+.dacriz-portfolio .portfolio-tab.active { background: var(--cb-orange); border-color: var(--cb-orange); }
+.dacriz-portfolio .portfolio-card { border-radius: 2px; box-shadow: 0 10px 32px rgba(20,20,30,.06); }
