@@ -5,7 +5,7 @@ Description: Tema hijo de Kadence para DACRIZ - Multiservicios y Soluciones Digi
 Author: DACRIZ
 Author URI: https://dacriz.com
 Template: kadence
-Version: 2.0.2
+Version: 2.0.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: dacriz
@@ -2373,6 +2373,48 @@ transform: translateY(-1px);
 .dacriz-inner-premium .card-link { color: var(--cb-orange) !important; }
 .dacriz-portfolio .portfolio-tab.active { background: var(--cb-orange); border-color: var(--cb-orange); }
 .dacriz-portfolio .portfolio-card { border-radius: 2px; box-shadow: 0 10px 32px rgba(20,20,30,.06); }
+
+/* Footer: contraste alto sobre una textura secundaria y no invasiva. */
+.conbiz-footer {
+    background: #0b0b18 !important;
+    color: #d7d6df !important;
+}
+.conbiz-footer__texture {
+    opacity: .12 !important;
+    background-color: #0b0b18;
+    background-blend-mode: soft-light;
+}
+.conbiz-footer h3 {
+    color: #fff !important;
+    font-weight: 750;
+}
+.conbiz-footer__intro p,
+.conbiz-footer__contact li,
+.conbiz-footer__contact li span,
+.conbiz-footer__bottom,
+.conbiz-footer__bottom p {
+    color: #bbb9c7 !important;
+}
+.conbiz-footer a,
+.conbiz-footer__contact a,
+.conbiz-footer__bottom a {
+    color: #d7d6df !important;
+}
+.conbiz-footer a:hover,
+.conbiz-footer a:focus-visible {
+    color: #ff7653 !important;
+}
+.conbiz-footer li a::before {
+    color: var(--cb-orange) !important;
+}
+.conbiz-footer__social a {
+    color: #fff !important;
+    border-color: rgba(255,255,255,.28) !important;
+    background: rgba(255,255,255,.055);
+}
+.conbiz-footer__bottom {
+    border-top-color: rgba(255,255,255,.17) !important;
+}
 
 /* Fondos claros: superficie limpia para que el contenido sea protagonista. */
 .cb-services-home {
