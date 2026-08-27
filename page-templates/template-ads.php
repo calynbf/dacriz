@@ -121,10 +121,10 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
                     <p><strong>3 Campañas en 45 días:</strong> 2 de ventas (WhatsApp/Web) + 1 de alcance. Incluye 5 creativos, guiones de video, segmentación quirúrgica y reportes detallados.</p>
                     <div class="service-price" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb;">
                         <span style="font-size: 0.85rem; color: #6b7280;">Gestión mensual</span>
-                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #32bad2; margin-top: 4px;">$300 USD/mes</span>
+                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #ff4f22; margin-top: 4px;">$300 USD/mes</span>
                         <span style="font-size: 0.8rem; color: #9ca3af;">Presupuesto publicitario aparte</span>
                     </div>
-                    <button class="toggle-details-btn" onclick="toggleDetails(this)" style="margin-top: 16px; padding: 10px 20px; background: transparent; border: 2px solid #32bad2; color: #32bad2; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 0.9rem; transition: all 0.3s; width: 100%;">
+                    <button class="toggle-details-btn" onclick="toggleDetails(this)" style="margin-top: 16px; padding: 10px 20px; background: transparent; border: 2px solid #ff4f22; color: #ff4f22; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 0.9rem; transition: all 0.3s; width: 100%;">
                         <span class="btn-text">Ver todo lo que incluye</span>
                         <svg class="btn-icon" style="display: inline-block; width: 16px; height: 16px; margin-left: 8px; transition: transform 0.3s;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </button>
@@ -153,10 +153,10 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
                     <p><strong>4 Campañas en 45 días:</strong> 2 de ventas + 1 de alcance + 1 de videos. Incluye 10 creativos, guiones, optimización activa y análisis de KPIs.</p>
                     <div class="service-price" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb;">
                         <span style="font-size: 0.85rem; color: #6b7280;">Gestión mensual</span>
-                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #32bad2; margin-top: 4px;">$400 USD/mes</span>
+                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #ff4f22; margin-top: 4px;">$400 USD/mes</span>
                         <span style="font-size: 0.8rem; color: #9ca3af;">Presupuesto publicitario aparte</span>
                     </div>
-                    <button class="toggle-details-btn" onclick="toggleDetails(this)" style="margin-top: 16px; padding: 10px 20px; background: transparent; border: 2px solid #32bad2; color: #32bad2; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 0.9rem; transition: all 0.3s; width: 100%;">
+                    <button class="toggle-details-btn" onclick="toggleDetails(this)" style="margin-top: 16px; padding: 10px 20px; background: transparent; border: 2px solid #ff4f22; color: #ff4f22; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 0.9rem; transition: all 0.3s; width: 100%;">
                         <span class="btn-text">Ver todo lo que incluye</span>
                         <svg class="btn-icon" style="display: inline-block; width: 16px; height: 16px; margin-left: 8px; transition: transform 0.3s;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </button>
@@ -185,10 +185,10 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
                     <p><strong>2 Campañas:</strong> Búsqueda + Display. Incluye keywords estratégicas, 10 creativos, estructura SEO, análisis de competencia y optimización PPC.</p>
                     <div class="service-price" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb;">
                         <span style="font-size: 0.85rem; color: #6b7280;">Gestión mensual</span>
-                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #32bad2; margin-top: 4px;">$300 USD/mes</span>
+                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #ff4f22; margin-top: 4px;">$300 USD/mes</span>
                         <span style="font-size: 0.8rem; color: #9ca3af;">Presupuesto sugerido: $900-$1,000 USD/mes</span>
                     </div>
-                    <button class="toggle-details-btn" onclick="toggleDetails(this)" style="margin-top: 16px; padding: 10px 20px; background: transparent; border: 2px solid #32bad2; color: #32bad2; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 0.9rem; transition: all 0.3s; width: 100%;">
+                    <button class="toggle-details-btn" onclick="toggleDetails(this)" style="margin-top: 16px; padding: 10px 20px; background: transparent; border: 2px solid #ff4f22; color: #ff4f22; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 0.9rem; transition: all 0.3s; width: 100%;">
                         <span class="btn-text">Ver todo lo que incluye</span>
                         <svg class="btn-icon" style="display: inline-block; width: 16px; height: 16px; margin-left: 8px; transition: transform 0.3s;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </button>
@@ -222,52 +222,52 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
                 <p style="font-size: 1.1rem; color: #6d7175; max-width: 800px; margin: 0 auto;">Nuestra metodología probada para maximizar tu inversión publicitaria</p>
             </div>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; max-width: 1200px; margin: 0 auto;">
-                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #32bad2;">
-                    <h3 style="color: #32bad2; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">🎯 Diagnóstico de Cuentas</h3>
+                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #ff4f22;">
+                    <h3 style="color: #ff4f22; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">🎯 Diagnóstico de Cuentas</h3>
                     <p style="color: #4b5563; line-height: 1.7; margin: 0;">No disparamos a ciegas. Realizamos una auditoría profunda para detectar errores de configuración y capitalizar tus fortalezas actuales.</p>
                 </div>
-                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #32bad2;">
-                    <h3 style="color: #32bad2; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">🚀 Trilogía de Campañas (45 días)</h3>
+                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #ff4f22;">
+                    <h3 style="color: #ff4f22; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">🚀 Trilogía de Campañas (45 días)</h3>
                     <p style="color: #4b5563; line-height: 1.7; margin: 0;">Implementamos un ecosistema completo. Motores de Ventas para lograr datos atractivos y conversiones rápidas y campañas de Alcance para que tu marca sea la primera opción.</p>
                 </div>
-                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #32bad2;">
-                    <h3 style="color: #32bad2; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">🧠 Ángulos de Venta Ganadores</h3>
+                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #ff4f22;">
+                    <h3 style="color: #ff4f22; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">🧠 Ángulos de Venta Ganadores</h3>
                     <p style="color: #4b5563; line-height: 1.7; margin: 0;">No usamos un solo mensaje. Creamos diferentes enfoques psicológicos para atacar distintos problemas o deseos de tu cliente ideal.</p>
                 </div>
-                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #32bad2;">
-                    <h3 style="color: #32bad2; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">🎯 Segmentación Quirúrgica</h3>
+                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #ff4f22;">
+                    <h3 style="color: #ff4f22; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">🎯 Segmentación Quirúrgica</h3>
                     <p style="color: #4b5563; line-height: 1.7; margin: 0;">Localizamos a tu audiencia exacta por ubicación e intereses específicos, asegurando que cada dólar llegue a quien realmente tiene el perfil de comprador.</p>
                 </div>
-                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #32bad2;">
-                    <h3 style="color: #32bad2; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">💰 Retorno de Inversión</h3>
+                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #ff4f22;">
+                    <h3 style="color: #ff4f22; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">💰 Retorno de Inversión</h3>
                     <p style="color: #4b5563; line-height: 1.7; margin: 0;">Definimos metas claras. No solo buscamos "likes", buscamos conversiones, visibilidad real y retorno de inversión entre un 500% a 600% en adelante (ROI).</p>
                 </div>
-                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #32bad2;">
-                    <h3 style="color: #32bad2; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">⚡ Optimización Activa</h3>
+                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #ff4f22;">
+                    <h3 style="color: #ff4f22; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">⚡ Optimización Activa</h3>
                     <p style="color: #4b5563; line-height: 1.7; margin: 0;">Tu inversión no se queda estática. Monitoreamos y ajustamos las piezas en tiempo real para maximizar el rendimiento del presupuesto.</p>
                 </div>
-                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #32bad2;">
-                    <h3 style="color: #32bad2; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">📊 Data & Analytics</h3>
+                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #ff4f22;">
+                    <h3 style="color: #ff4f22; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">📊 Data & Analytics</h3>
                     <p style="color: #4b5563; line-height: 1.7; margin: 0;">Recibes reportes claros sobre el rendimiento. Traducimos los números complejos en decisiones estratégicas para tu negocio.</p>
                 </div>
-                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #32bad2;">
-                    <h3 style="color: #32bad2; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">📈 Dominio de KPIs</h3>
+                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #ff4f22;">
+                    <h3 style="color: #ff4f22; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">📈 Dominio de KPIs</h3>
                     <p style="color: #4b5563; line-height: 1.7; margin: 0;">Medimos lo que importa (Costo por adquisición, clics, conversiones) para garantizar que la estrategia sea saludable y escalable.</p>
                 </div>
-                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #32bad2;">
-                    <h3 style="color: #32bad2; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">🎨 Diseño de Creativos</h3>
+                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #ff4f22;">
+                    <h3 style="color: #ff4f22; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">🎨 Diseño de Creativos</h3>
                     <p style="color: #4b5563; line-height: 1.7; margin: 0;">Creamos tus piezas gráficas diseñadas específicamente para detener el "scroll" y generar el clic de compra.</p>
                 </div>
-                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #32bad2;">
-                    <h3 style="color: #32bad2; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">🎬 Guiones de Video con Punch</h3>
+                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #ff4f22;">
+                    <h3 style="color: #ff4f22; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">🎬 Guiones de Video con Punch</h3>
                     <p style="color: #4b5563; line-height: 1.7; margin: 0;">Te entregamos la estructura exacta de lo que debes decir en video para conectar y vender. Tú grabas la esencia de tu marca, nosotros ponemos la psicología de ventas.</p>
                 </div>
-                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #32bad2;">
-                    <h3 style="color: #32bad2; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">🔓 Transparencia Total</h3>
+                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #ff4f22;">
+                    <h3 style="color: #ff4f22; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">🔓 Transparencia Total</h3>
                     <p style="color: #4b5563; line-height: 1.7; margin: 0;">El control es tuyo. Tienes acceso 24/7 a tu cuenta publicitaria y a la facturación directa de Meta, sin letras chiquitas ni intermediarios.</p>
                 </div>
-                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #32bad2;">
-                    <h3 style="color: #32bad2; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">💵 Presupuesto Sugerido</h3>
+                <div class="benefit-card" style="background: #fff; padding: 28px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #ff4f22;">
+                    <h3 style="color: #ff4f22; font-size: 1.15rem; margin-bottom: 12px; font-weight: 700;">💵 Presupuesto Sugerido</h3>
                     <p style="color: #4b5563; line-height: 1.7; margin: 0;">Para ver resultados sólidos, recomendamos una inversión inicial de $15-$17 USD/día en ventas y $5-$8 USD/día en posicionamiento. Es el combustible necesario para que el algoritmo trabaje a tu favor.</p>
                 </div>
             </div>
@@ -387,14 +387,14 @@ function toggleDetails(button) {
         details.style.display = 'block';
         btnText.textContent = 'Ocultar detalles';
         btnIcon.style.transform = 'rotate(180deg)';
-        button.style.background = '#32bad2';
+        button.style.background = '#ff4f22';
         button.style.color = '#fff';
     } else {
         details.style.display = 'none';
         btnText.textContent = 'Ver todo lo que incluye';
         btnIcon.style.transform = 'rotate(0deg)';
         button.style.background = 'transparent';
-        button.style.color = '#32bad2';
+        button.style.color = '#ff4f22';
     }
 }
 
@@ -404,7 +404,7 @@ document.addEventListener('DOMContentLoaded', function() {
     buttons.forEach(button => {
         button.addEventListener('mouseenter', function() {
             if (this.style.background === 'transparent' || this.style.background === '') {
-                this.style.background = 'rgba(50, 186, 210, 0.1)';
+                this.style.background = 'rgba(255,79,34, 0.1)';
             }
         });
         button.addEventListener('mouseleave', function() {

@@ -17,14 +17,14 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
 <main id="primary" class="site-main">
 
     <!-- HERO MODERNO -->
-    <section class="service-hero" style="background: linear-gradient(135deg, #2a9fb8 0%, #32bad2 100%); padding: 60px 0;">
+    <section class="service-hero" style="background: linear-gradient(135deg, #e83b10 0%, #ff4f22 100%); padding: 60px 0;">
         <div class="container">
             <div class="hero-content" style="max-width: 800px; margin: 0 auto; text-align: center;">
                 <span class="service-badge" style="display: inline-block; background: rgba(255,255,255,0.2); color: #fff; padding: 8px 20px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; margin-bottom: 20px;">Posicionamiento SEO</span>
                 <h1 id="seo-title" style="color: #fff; font-size: 2.5rem; margin-bottom: 20px; line-height: 1.2;">Aumenta tu tráfico orgánico y genera más ventas con SEO</h1>
                 <p style="color: rgba(255,255,255,0.95); font-size: 1.15rem; margin-bottom: 32px; line-height: 1.6;">Posicionamos tu negocio en Google para que tus clientes te encuentren cuando buscan tus productos o servicios.</p>
                 <div class="btn-group" style="gap: 12px; justify-content: center; margin-bottom: 24px;">
-                    <a href="/contacto/?servicio=seo" class="btn-primary" style="background: #fff; color: #32bad2;">Solicitar auditoría gratis</a>
+                    <a href="/contacto/?servicio=seo" class="btn-primary" style="background: #fff; color: #ff4f22;">Solicitar auditoría gratis</a>
                     <a href="#servicios" class="btn-outline" style="background: transparent; color: #fff; border-color: rgba(255,255,255,0.5);">Ver qué incluye</a>
                 </div>
                 <div class="hero-features" style="display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; color: rgba(255,255,255,0.9); font-size: 0.95rem;">

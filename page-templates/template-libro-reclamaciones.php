@@ -227,8 +227,8 @@ get_header();
     .libro-form select:focus,
     .libro-form textarea:focus {
         outline: none;
-        border-color: #32bad2;
-        box-shadow: 0 0 0 3px rgba(50, 186, 210, 0.1);
+        border-color: #ff4f22;
+        box-shadow: 0 0 0 3px rgba(255,79,34, 0.1);
     }
 
     @media (max-width: 768px) {

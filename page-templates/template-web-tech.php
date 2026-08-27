@@ -121,7 +121,7 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
                     <p>Páginas corporativas profesionales, rápidas, fáciles de administrar y optimizadas para SEO.</p>
                     <div class="service-price" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb;">
                         <span style="font-size: 0.85rem; color: #6b7280;">Desde</span>
-                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #32bad2; margin-top: 4px;">$130 USD</span>
+                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #ff4f22; margin-top: 4px;">$130 USD</span>
                         <span style="font-size: 0.8rem; color: #9ca3af;">Diseño + 5 páginas</span>
                     </div>
                 </article>
@@ -133,7 +133,7 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
                     <p>E-commerce completo en Shopify: catálogo, pagos, envíos y gestión de inventario.</p>
                     <div class="service-price" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb;">
                         <span style="font-size: 0.85rem; color: #6b7280;">Desde</span>
-                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #32bad2; margin-top: 4px;">$195 USD</span>
+                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #ff4f22; margin-top: 4px;">$195 USD</span>
                         <span style="font-size: 0.8rem; color: #9ca3af;">Setup completo + tema</span>
                     </div>
                 </article>
@@ -145,7 +145,7 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
                     <p>Tiendas online en WordPress con WooCommerce, personalizables y escalables.</p>
                     <div class="service-price" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb;">
                         <span style="font-size: 0.85rem; color: #6b7280;">Desde</span>
-                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #32bad2; margin-top: 4px;">$244 USD</span>
+                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #ff4f22; margin-top: 4px;">$244 USD</span>
                         <span style="font-size: 0.8rem; color: #9ca3af;">Tienda completa</span>
                     </div>
                 </article>
@@ -157,7 +157,7 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
                     <p>Diseños únicos adaptados a tu marca, responsive y optimizados para conversión.</p>
                     <div class="service-price" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb;">
                         <span style="font-size: 0.85rem; color: #6b7280;">Desde</span>
-                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #32bad2; margin-top: 4px;">$163 USD</span>
+                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #ff4f22; margin-top: 4px;">$163 USD</span>
                         <span style="font-size: 0.8rem; color: #9ca3af;">Diseño único + desarrollo</span>
                     </div>
                 </article>
@@ -169,7 +169,7 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
                     <p>Páginas de aterrizaje optimizadas para campañas publicitarias y máxima conversión.</p>
                     <div class="service-price" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb;">
                         <span style="font-size: 0.85rem; color: #6b7280;">Desde</span>
-                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #32bad2; margin-top: 4px;">$65 USD</span>
+                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #ff4f22; margin-top: 4px;">$65 USD</span>
                         <span style="font-size: 0.8rem; color: #9ca3af;">1 página optimizada</span>
                     </div>
                 </article>
@@ -181,7 +181,7 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
                     <p>Plataformas, portales y sistemas web personalizados según tus necesidades específicas.</p>
                     <div class="service-price" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb;">
                         <span style="font-size: 0.85rem; color: #6b7280;">Desde</span>
-                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #32bad2; margin-top: 4px;">$488 USD</span>
+                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #ff4f22; margin-top: 4px;">$488 USD</span>
                         <span style="font-size: 0.8rem; color: #9ca3af;">Según requerimientos</span>
                     </div>
                 </article>
@@ -193,7 +193,7 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
                     <p>Conectamos tu web con CRM, ERP, pasarelas de pago, email marketing y más.</p>
                     <div class="service-price" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb;">
                         <span style="font-size: 0.85rem; color: #6b7280;">Desde</span>
-                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #32bad2; margin-top: 4px;">$81 USD</span>
+                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #ff4f22; margin-top: 4px;">$81 USD</span>
                         <span style="font-size: 0.8rem; color: #9ca3af;">Por integración</span>
                     </div>
                 </article>
@@ -205,7 +205,7 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
                     <p>Actualizaciones, backups, seguridad y soporte técnico continuo para tu sitio web.</p>
                     <div class="service-price" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb;">
                         <span style="font-size: 0.85rem; color: #6b7280;">Desde</span>
-                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #32bad2; margin-top: 4px;">$13 USD/mes</span>
+                        <span style="display: block; font-size: 1.5rem; font-weight: 700; color: #ff4f22; margin-top: 4px;">$13 USD/mes</span>
                         <span style="font-size: 0.8rem; color: #9ca3af;">Plan básico</span>
                     </div>
                 </article>
