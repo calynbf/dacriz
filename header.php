@@ -21,7 +21,7 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
     <header id="masthead" class="conbiz-header" role="banner">
         <div class="conbiz-header__brand">
             <a href="<?php echo esc_url(home_url('/')); ?>" aria-label="Dacriz - Inicio">
-                <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/branding/dacriz-logo-light.png'); ?>" alt="Dacriz" width="640" height="240">
+                <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/branding/dacriz-logo-header-v2.png'); ?>" alt="Dacriz" width="640" height="240">
             </a>
         </div>
         <div class="conbiz-header__main">
@@ -40,7 +40,7 @@ $whatsapp = get_theme_mod('dacriz_whatsapp_number', '');
         </div>
         <div id="conbiz-mobile-menu" class="conbiz-mobile-panel" aria-hidden="true">
             <button class="conbiz-menu-close" type="button" aria-label="<?php esc_attr_e('Cerrar menú', 'dacriz'); ?>">×</button>
-            <a class="conbiz-mobile-logo" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/branding/dacriz-logo-light.png'); ?>" alt="Dacriz" width="640" height="240"></a>
+            <a class="conbiz-mobile-logo" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/branding/dacriz-logo-light-v2.png'); ?>" alt="Dacriz" width="640" height="240"></a>
             <?php wp_nav_menu(array('theme_location'=>'primary','container'=>false,'menu_class'=>'conbiz-mobile-nav','fallback_cb'=>'wp_page_menu','depth'=>3)); ?>
             <a class="conbiz-mobile-cta" href="<?php echo esc_url(home_url('/contacto/')); ?>">Solicitar diagnóstico <span>→</span></a>
         </div>

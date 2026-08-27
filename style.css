@@ -5,7 +5,7 @@ Description: Tema hijo de Kadence para DACRIZ - Multiservicios y Soluciones Digi
 Author: DACRIZ
 Author URI: https://dacriz.com
 Template: kadence
-Version: 2.1.2
+Version: 2.1.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: dacriz
@@ -87,7 +87,7 @@ body.home .site-header {
 }
 body.home .site-header .site-branding a.brand {
     min-width: 205px;
-    background: url('assets/img/branding/dacriz-logo-light.png') center / contain no-repeat;
+    background: url('assets/img/branding/dacriz-logo-light-v2.png') center / contain no-repeat;
 }
 body.home .site-header:not(.scrolled) .custom-logo { opacity: 0; }
 body.home .site-header:not(.scrolled) .header-navigation a,
@@ -202,7 +202,7 @@ body.home .site-header .custom-logo { transition: opacity .22s ease; }
 .dacriz-inner-premium .site-header:not(.scrolled) .site-header-upper-wrap,
 .dacriz-inner-premium .site-header:not(.scrolled) .site-main-header-wrap,
 .dacriz-inner-premium .site-header:not(.scrolled) .site-header-row-container-inner { background:transparent!important; }
-.dacriz-inner-premium .site-header .site-branding a.brand { min-width:205px;background:url('assets/img/branding/dacriz-logo-light.png') center/contain no-repeat; }
+.dacriz-inner-premium .site-header .site-branding a.brand { min-width:205px;background:url('assets/img/branding/dacriz-logo-light-v2.png') center/contain no-repeat; }
 .dacriz-inner-premium .site-header:not(.scrolled) .custom-logo { opacity:0; }
 .dacriz-inner-premium .site-header:not(.scrolled) .header-navigation a,
 .dacriz-inner-premium .site-header:not(.scrolled) .menu-toggle-open,

@@ -17,7 +17,7 @@ $linkedin = get_theme_mod('dacriz_linkedin', '');
  <div class="container">
   <div class="conbiz-footer__grid">
    <div class="conbiz-footer__intro">
-    <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/branding/dacriz-logo-light.png'); ?>" alt="Dacriz" width="640" height="240">
+    <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/branding/dacriz-logo-light-v2.png'); ?>" alt="Dacriz" width="640" height="240">
     <p>Desarrollo web, comercio electrónico y automatización para convertir ideas en negocios digitales sólidos.</p>
     <div class="conbiz-footer__social">
      <?php if ($facebook) : ?><a href="<?php echo esc_url($facebook); ?>" target="_blank" rel="noopener" aria-label="Facebook">f</a><?php endif; ?>
