@@ -24,6 +24,7 @@ $asset = get_stylesheet_directory_uri() . '/assets/conbiz/';
   <a href="<?php echo esc_url(home_url('/servicios/growth-ia/')); ?>" data-reveal><img src="<?php echo esc_url($asset . 'feauters-v1-img2.jpg'); ?>" alt="Automatización e inteligencia artificial" width="270" height="200"><span>Automatización e IA <i>»</i></span></a>
   <a href="<?php echo esc_url(home_url('/servicios/seo/')); ?>" data-reveal><img src="<?php echo esc_url($asset . 'feauters-v1-img3.jpg'); ?>" alt="Posicionamiento SEO" width="270" height="200"><span>SEO y crecimiento <i>»</i></span></a>
   <a href="<?php echo esc_url(home_url('/servicios/ads/')); ?>" data-reveal><img src="<?php echo esc_url($asset . 'feauters-v1-img4.jpg'); ?>" alt="Publicidad digital" width="270" height="200"><span>Publicidad digital <i>»</i></span></a>
+  <a href="<?php echo esc_url(home_url('/servicios/chatbot-ia/')); ?>" data-reveal><img src="<?php echo esc_url($asset . 'services-details-img2.jpg'); ?>" alt="Chatbots y asistentes con inteligencia artificial" width="270" height="200"><span>Chatbots con IA <i>»</i></span></a>
  </div>
  <div class="cb-achievements" data-reveal><div><b>10+</b><span>Años de experiencia</span></div><div><b>65+</b><span>Proyectos completados</span></div><div><b>4.76</b><span>Valoración profesional</span></div><a href="<?php echo esc_url(home_url('/portafolio/')); ?>"><small>Trabajo comprobado</small>Ver proyectos <i>»</i></a></div>
 </div></section>

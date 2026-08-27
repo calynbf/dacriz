@@ -89,6 +89,20 @@ get_header();
                     </div>
                 </div>
 
+                <div class="col" style="flex: 0 0 50%;">
+                    <div class="service-card" style="height: 100%; text-align: left;">
+                        <h3>Chatbots con IA</h3>
+                        <p>Asistentes para soporte y ventas conectados con el conocimiento y catálogo real de tu empresa.</p>
+                        <ul style="text-align: left; list-style: none; padding: 0; margin: 20px 0;">
+                            <li style="padding: 8px 0; border-bottom: 1px solid #eee;">✓ Atención automatizada 24/7</li>
+                            <li style="padding: 8px 0; border-bottom: 1px solid #eee;">✓ Base de conocimiento controlada</li>
+                            <li style="padding: 8px 0; border-bottom: 1px solid #eee;">✓ Consulta de productos y oportunidades</li>
+                            <li style="padding: 8px 0;">✓ Analítica y derivación humana</li>
+                        </ul>
+                        <a href="/servicios/chatbot-ia/" class="btn-primary" style="display: inline-block; margin-top: 16px;">Ver Chatbots con IA</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
