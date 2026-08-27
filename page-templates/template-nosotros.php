@@ -41,7 +41,7 @@ get_header();
                     </p>
                 </div>
                 <div class="col" style="flex: 0 0 50%;">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about-team.jpg" alt="Equipo DACRIZ" style="max-width: 100%; border-radius: 16px; box-shadow: var(--dacriz-shadow-xl);">
+                    <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/conbiz/team-image.jpg'); ?>" alt="Equipo DACRIZ desarrollando soluciones digitales" width="605" height="449" loading="lazy" style="max-width: 100%; border-radius: 4px; box-shadow: 0 18px 45px rgba(20,20,30,.12);">
                 </div>
             </div>
         </div>
