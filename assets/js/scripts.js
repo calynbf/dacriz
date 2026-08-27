@@ -154,13 +154,13 @@
     }
 
     /**
-     * Navegación móvil del sistema Conbiz adaptado.
+     * Navegación móvil del sistema DACRIZ adaptado.
      */
-    function initConbizMobileMenu() {
-        var toggle = document.querySelector('.conbiz-menu-toggle');
-        var close = document.querySelector('.conbiz-menu-close');
-        var panel = document.querySelector('.conbiz-mobile-panel');
-        var overlay = document.querySelector('.conbiz-mobile-overlay');
+    function initDacrizMobileMenu() {
+        var toggle = document.querySelector('.dacriz-brand-menu-toggle');
+        var close = document.querySelector('.dacriz-brand-menu-close');
+        var panel = document.querySelector('.dacriz-brand-mobile-panel');
+        var overlay = document.querySelector('.dacriz-brand-mobile-overlay');
 
         if (!toggle || !panel || !overlay) {
             return;
@@ -408,7 +408,7 @@
     $(document).ready(function() {
         initSmoothScroll();
         initMobileMenu();
-        initConbizMobileMenu();
+        initDacrizMobileMenu();
         initFormValidation();
         initTabs();
         initAccordion();
