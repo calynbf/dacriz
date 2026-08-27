@@ -5,7 +5,7 @@ Description: Tema hijo de Kadence para DACRIZ - Multiservicios y Soluciones Digi
 Author: DACRIZ
 Author URI: https://dacriz.com
 Template: kadence
-Version: 2.0.3
+Version: 2.0.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: dacriz
@@ -2414,6 +2414,25 @@ transform: translateY(-1px);
 }
 .conbiz-footer__bottom {
     border-top-color: rgba(255,255,255,.17) !important;
+}
+
+/* Accesos rápidos del hero: espacio para la superposición completa. */
+.cb-home-hero {
+    padding-bottom: 58px !important;
+}
+.cb-hero-guides {
+    min-height: 104px;
+}
+.cb-hero-guides a {
+    min-height: 104px;
+}
+@media (max-width: 820px) {
+    .cb-home-hero { padding-bottom: 72px !important; }
+    .cb-hero-guides { transform: translateY(35%); }
+}
+@media (max-width: 600px) {
+    .cb-home-hero { padding-bottom: 88px !important; }
+    .cb-hero-guides { transform: translateY(28%); }
 }
 
 /* Fondos claros: superficie limpia para que el contenido sea protagonista. */
