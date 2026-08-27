@@ -5,7 +5,7 @@ Description: Tema hijo de Kadence para DACRIZ - Multiservicios y Soluciones Digi
 Author: DACRIZ
 Author URI: https://dacriz.com
 Template: kadence
-Version: 2.1.0
+Version: 2.1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: dacriz
@@ -2441,6 +2441,8 @@ transform: translateY(-1px);
 @media(max-width:1050px){.cb-image-services{grid-template-columns:repeat(3,1fr)}.cb-ai-hero__grid{gap:40px}.cb-ai-features{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:820px){.cb-image-services{grid-template-columns:repeat(2,1fr)}.cb-ai-hero__grid,.cb-ai-implementation{grid-template-columns:1fr}.cb-ai-hero .hero-content,.cb-ai-hero .hero-content h1,.cb-ai-hero .hero-content p{text-align:center!important}.cb-ai-hero .btn-group,.cb-ai-hero .hero-features{justify-content:center!important}.cb-chat-demo{max-width:620px;margin:auto;transform:none}.cb-ai-use-cases .row{grid-template-columns:1fr}}
 @media(max-width:600px){.cb-image-services,.cb-ai-features{grid-template-columns:1fr}.cb-ai-features article{min-height:auto}.cb-ai-implementation{gap:45px}.cb-ai-implementation li{padding:18px}.cb-chat-demo__body{padding:18px}}
+.dacriz-chatbot-ia .cb-ai-hero .hero-features,
+.dacriz-chatbot-ia .cb-ai-hero .hero-features > span { color: rgba(255,255,255,.88) !important; }
 
 /* Fondos claros: superficie limpia para que el contenido sea protagonista. */
 .cb-services-home {
