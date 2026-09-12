@@ -16,6 +16,7 @@ $landings = array(
         'image' => 'ecommerce-responsive-dacriz.webp',
         'image_alt' => 'Tienda online desarrollada para escritorio, tablet y celular',
         'service' => 'Desarrollo web',
+        'form_option' => 'Página web o landing',
         'whatsapp' => 'Hola, vi la landing de desarrollo web y quiero una evaluación para mi proyecto.',
         'problem_title' => 'Tu sitio debe trabajar para tu negocio, no ser solo una tarjeta digital',
         'problem_text' => 'Si tu web es lenta, se ve desactualizada o no facilita el contacto, estás perdiendo oportunidades incluso cuando inviertes en publicidad.',
@@ -38,6 +39,7 @@ $landings = array(
         'image' => 'chatbot-ia-dacriz.webp',
         'image_alt' => 'Configuración de un asistente empresarial con inteligencia artificial',
         'service' => 'Automatización',
+        'form_option' => 'Automatización con WhatsApp o IA',
         'whatsapp' => 'Hola, vi la landing de chatbots con IA y quiero automatizar la atención de mi empresa.',
         'problem_title' => 'Responder tarde cuesta ventas y sobrecarga a tu equipo',
         'problem_text' => 'Un asistente bien configurado resuelve preguntas repetitivas, recopila datos y entrega las conversaciones importantes a una persona.',
@@ -60,6 +62,7 @@ $landings = array(
         'image' => 'publicidad-digital-dacriz.webp',
         'image_alt' => 'Análisis y optimización de campañas de publicidad digital',
         'service' => 'Publicidad digital',
+        'form_option' => 'SEO o publicidad',
         'whatsapp' => 'Hola, vi la landing de publicidad digital y quiero evaluar una campaña para mi negocio.',
         'problem_title' => 'Publicar anuncios sin medición convierte el presupuesto en una apuesta',
         'problem_text' => 'Antes de escalar revisamos oferta, página de destino y seguimiento para que cada campaña produzca datos útiles y pueda mejorar.',
@@ -82,6 +85,7 @@ $landings = array(
         'image' => 'seo-analitica-dacriz.webp',
         'image_alt' => 'Análisis de posicionamiento SEO y conversiones',
         'service' => 'SEO',
+        'form_option' => 'SEO o publicidad',
         'whatsapp' => 'Hola, vi la landing de SEO y quiero evaluar el posicionamiento de mi sitio.',
         'problem_title' => 'Tener una web no garantiza aparecer frente a las búsquedas correctas',
         'problem_text' => 'El SEO conecta la intención de búsqueda con páginas útiles, técnicamente sólidas y capaces de convertir tráfico en oportunidades.',
@@ -106,7 +110,7 @@ $media = get_stylesheet_directory_uri() . '/assets/img/dacriz-media/';
 
 get_header();
 ?>
-<main id="primary" class="site-main dacriz-campaign-landing" data-landing-service="<?php echo esc_attr($landing['service']); ?>">
+<main id="primary" class="site-main dacriz-campaign-landing" data-landing-service="<?php echo esc_attr($landing['service']); ?>" data-form-option="<?php echo esc_attr($landing['form_option']); ?>">
  <section class="dacriz-landing-hero">
   <div class="container dacriz-landing-hero__grid">
    <div class="dacriz-landing-hero__copy">
@@ -171,9 +175,10 @@ document.addEventListener('DOMContentLoaded', function () {
  var root = document.querySelector('.dacriz-campaign-landing');
  if (!root) return;
  var service = root.getAttribute('data-landing-service') || '';
+ var formOption = root.getAttribute('data-form-option') || service;
  var select = root.querySelector('select[name="service"]');
  if (select) {
-  var option = Array.from(select.options).find(function (item) { return item.text.toLowerCase().indexOf(service.toLowerCase()) !== -1; });
+  var option = Array.from(select.options).find(function (item) { return item.text.toLowerCase() === formOption.toLowerCase(); });
   if (option) select.value = option.value;
  }
  var params = new URLSearchParams(window.location.search);
