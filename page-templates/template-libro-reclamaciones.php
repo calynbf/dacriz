@@ -37,7 +37,7 @@ get_header();
                     <p style="margin: 0; color: #166534;"><strong>Número de Hoja:</strong></p>
                     <p style="font-size: 1.5rem; font-weight: 700; color: #16a34a; margin: 8px 0;"><?php echo esc_html($_GET['numero_hoja']); ?></p>
                 </div>
-                <p style="color: #15803d; margin-bottom: 24px;">Hemos enviado una copia de su reclamo al correo electrónico proporcionado. Recibirá una respuesta en un plazo máximo de <strong>30 días calendario</strong>.</p>
+                <p style="color: #15803d; margin-bottom: 24px;">Hemos enviado una copia de su reclamo al correo electrónico proporcionado. Recibirá una respuesta en un plazo máximo de <strong>15 días hábiles no prorrogables</strong>.</p>
                 <a href="<?php echo home_url('/'); ?>" class="btn-primary" style="background: #16a34a;">Volver al inicio</a>
             </div>
         </div>
@@ -60,7 +60,7 @@ get_header();
                     <div class="col" style="flex: 0 0 calc(33.333% - 14px);">
                         <div class="info-card" style="background: #fff; padding: 24px; border-radius: 12px; box-shadow: var(--dacriz-shadow); text-align: center;">
                             <div style="font-size: 2.5rem; margin-bottom: 12px;">⏰</div>
-                            <h4 style="color: var(--dacriz-text-primary); margin-bottom: 8px;">30 Días</h4>
+                            <h4 style="color: var(--dacriz-text-primary); margin-bottom: 8px;">15 días hábiles</h4>
                             <p style="color: var(--dacriz-text-secondary); margin: 0; font-size: 0.95rem;">Plazo máximo de respuesta</p>
                         </div>
                     </div>
@@ -206,7 +206,7 @@ get_header();
 
                     <!-- Aviso Legal -->
                     <div class="aviso-legal" style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; border-radius: 8px; margin-bottom: 24px;">
-                        <p style="margin: 0; font-size: 0.9rem; color: #92400e;"><strong>Importante:</strong> La formulación del reclamo no impide acudir a otras vías de solución de controversias ni es requisito previo para interponer una denuncia ante el INDECOPI. El proveedor deberá dar respuesta al reclamo en un plazo no mayor a treinta (30) días calendario.</p>
+                        <p style="margin: 0; font-size: 0.9rem; color: #92400e;"><strong>Importante:</strong> La formulación del reclamo no impide acudir a otras vías de solución de controversias ni es requisito previo para interponer una denuncia ante el Indecopi. El proveedor deberá responder el reclamo o la queja en un plazo máximo de quince (15) días hábiles no prorrogables.</p>
                     </div>
 
                     <!-- Botón de Envío -->
