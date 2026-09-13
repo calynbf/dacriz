@@ -505,3 +505,10 @@
     `;
     document.head.appendChild(style);
 })();
+
+/* Conversión: enviar al usuario a una confirmación medible tras el formulario. */
+document.addEventListener('wpcf7mailsent', function () {
+    window.setTimeout(function () {
+        window.location.assign('/gracias/');
+    }, 350);
+});
