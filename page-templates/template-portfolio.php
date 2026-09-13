@@ -36,7 +36,6 @@ $projects_uri = trailingslashit(get_stylesheet_directory_uri()) . 'assets/img/pr
   <div class="container">
    <header class="dacriz-portfolio-intro">
     <div><span>Diseño y desarrollo web</span><h2 id="dacriz-portfolio-title">Trabajo real, pensado para cada marca</h2></div>
-    <p>Selecciona una imagen para verla completa. Cada pieza presenta el diseño del sitio sin enlaces externos ni páginas individuales.</p>
    </header>
    <div class="dacriz-project-grid">
     <?php foreach ($projects as $index => $project) : $image_url = $projects_uri . $project['image']; ?>
