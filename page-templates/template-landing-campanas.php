@@ -151,7 +151,7 @@ get_header();
  </div></section>
 
  <section class="dacriz-landing-deliverables"><div class="container dacriz-landing-deliverables__grid">
-  <div><span class="dacriz-landing-kicker">Qué incluye</span><h2>Todo lo necesario para poner la solución en marcha</h2><p>El alcance final se adapta a tu situación, objetivos y herramientas actuales.</p><?php if ($is_web_landing) : ?><figure class="dacriz-deliverables-visual"><img src="<?php echo esc_url($media . 'ecommerce-responsive-dacriz.webp'); ?>" alt="Sitio web adaptable a escritorio, tablet y celular" width="1600" height="1067" loading="lazy"></figure><?php endif; ?></div>
+  <div><span class="dacriz-landing-kicker">Qué incluye</span><h2>Todo lo necesario para poner la solución en marcha</h2><p>El alcance final se adapta a tu situación, objetivos y herramientas actuales.</p></div>
   <ul><?php foreach ($landing['deliverables'] as $index => $item) : ?><li><span><?php echo esc_html(str_pad((string) ($index + 1), 2, '0', STR_PAD_LEFT)); ?></span><?php echo esc_html($item); ?></li><?php endforeach; ?></ul>
  </div></section>
 
@@ -160,10 +160,10 @@ get_header();
   <ol><li><b>01</b><strong>Diagnóstico</strong><span>Conocemos el negocio, objetivo y situación actual.</span></li><li><b>02</b><strong>Propuesta</strong><span>Definimos alcance, tiempos y entregables.</span></li><li><b>03</b><strong>Implementación</strong><span>Desarrollamos y comunicamos los avances.</span></li><li><b>04</b><strong>Pruebas y entrega</strong><span>Validamos, publicamos y explicamos la gestión.</span></li></ol>
  </div></section>
 
- <section class="dacriz-landing-experience"><div class="container dacriz-landing-two-cols">
-  <div><span class="dacriz-landing-kicker">Experiencia comprobable</span><h2>Más de una década resolviendo proyectos digitales</h2></div>
-  <div><p>Experiencia en WordPress, WooCommerce, Shopify, Elementor, PrestaShop, integraciones, servidores, automatización y marketing digital.</p><a href="<?php echo esc_url(home_url('/portafolio/')); ?>">Ver proyectos realizados <span>→</span></a></div>
- </div></section>
+ <section class="dacriz-landing-experience"><?php if ($is_web_landing) : ?><div class="container dacriz-experience-showcase">
+  <figure class="dacriz-experience-showcase__media"><img src="<?php echo esc_url($media . 'equipo-estrategia-dacriz.webp'); ?>" alt="Equipo planificando una solución web profesional" width="1600" height="1067" loading="lazy"><figcaption><b>10+</b><span>años creando soluciones digitales</span></figcaption></figure>
+  <div class="dacriz-experience-showcase__copy"><span class="dacriz-landing-kicker">Experiencia comprobable</span><h2>Experiencia técnica con visión de negocio</h2><p>No nos limitamos a instalar una plantilla. Analizamos tu objetivo, organizamos el recorrido del usuario y construimos una solución preparada para crecer.</p><div class="dacriz-experience-stats"><div><strong>65+</strong><span>proyectos completados</span></div><div><strong>6</strong><span>plataformas dominadas</span></div><div><strong>1 a 1</strong><span>atención directa</span></div></div><ul><li>Desarrollo y e-commerce</li><li>Integraciones y servidores</li><li>SEO, analítica y automatización</li></ul><a href="<?php echo esc_url(home_url('/portafolio/')); ?>">Conoce nuestro trabajo <span>→</span></a></div>
+ </div><?php else : ?><div class="container dacriz-landing-two-cols"><div><span class="dacriz-landing-kicker">Experiencia comprobable</span><h2>Más de una década resolviendo proyectos digitales</h2></div><div><p>Experiencia en WordPress, WooCommerce, Shopify, Elementor, PrestaShop, integraciones, servidores, automatización y marketing digital.</p><a href="<?php echo esc_url(home_url('/portafolio/')); ?>">Ver proyectos realizados <span>→</span></a></div></div><?php endif; ?></section>
 
  <section class="dacriz-landing-faq"><div class="container dacriz-landing-faq__grid">
   <div><span class="dacriz-landing-kicker">Preguntas frecuentes</span><h2>Resolvamos las dudas iniciales</h2></div>
