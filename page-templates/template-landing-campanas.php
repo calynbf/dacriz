@@ -142,7 +142,11 @@ get_header();
  <section class="dacriz-landing-benefits"><div class="container">
   <div class="dacriz-landing-heading"><span class="dacriz-landing-kicker">Cómo te ayudamos</span><h2>Una solución clara, implementada de principio a fin</h2></div>
   <div class="dacriz-landing-benefits__grid"><?php foreach ($landing['benefits'] as $index => $benefit) : ?>
-   <article><?php if ($is_web_landing) : $benefit_images = array('siec-uniformes.webp', 'cerveceria-del-valle.webp', 'pharmavet-corporation.webp'); ?><div class="dacriz-benefit-image"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/proyectos/' . $benefit_images[$index]); ?>" alt="Ejemplo de proyecto web desarrollado por Dacriz" width="900" height="560" loading="lazy"></div><?php endif; ?><span>0<?php echo esc_html($index + 1); ?></span><h3><?php echo esc_html($benefit[0]); ?></h3><p><?php echo esc_html($benefit[1]); ?></p></article>
+   <article><?php if ($is_web_landing) : $benefit_images = array(
+       array('diseno-conversion.webp', 'Diseño web profesional orientado a conversiones'),
+       array('ecommerce-profesional.webp', 'Tienda online profesional adaptable a diferentes dispositivos'),
+       array('experiencia-movil.webp', 'Experiencia web rápida y optimizada para celulares'),
+   ); ?><div class="dacriz-benefit-image"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/landing-web/' . $benefit_images[$index][0]); ?>" alt="<?php echo esc_attr($benefit_images[$index][1]); ?>" width="1200" height="750" loading="lazy"></div><?php endif; ?><span>0<?php echo esc_html($index + 1); ?></span><h3><?php echo esc_html($benefit[0]); ?></h3><p><?php echo esc_html($benefit[1]); ?></p></article>
   <?php endforeach; ?></div>
  </div></section>
 
