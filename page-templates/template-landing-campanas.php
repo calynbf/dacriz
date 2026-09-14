@@ -104,6 +104,7 @@ $landings = array(
 );
 
 $landing = $landings[$slug] ?? $landings['desarrollo-web-para-negocios'];
+$is_web_landing = 'desarrollo-web-para-negocios' === $slug;
 $whatsapp_number = preg_replace('/\D+/', '', get_theme_mod('dacriz_whatsapp_number', ''));
 $whatsapp_url = $whatsapp_number ? 'https://wa.me/' . $whatsapp_number . '?text=' . rawurlencode($landing['whatsapp']) : home_url('/contacto/');
 $media = get_stylesheet_directory_uri() . '/assets/img/dacriz-media/';
@@ -127,22 +128,26 @@ get_header();
   </div>
  </section>
 
- <section class="dacriz-landing-proof"><div class="container"><p>Experiencia práctica en</p><ul><li>WordPress</li><li>WooCommerce</li><li>Shopify</li><li>Automatización</li><li>Analítica</li><li>OpenAI</li></ul></div></section>
+ <section class="dacriz-landing-proof"><div class="container"><p>Experiencia práctica en</p><?php if ($is_web_landing) : ?>
+  <ul class="dacriz-platforms"><?php foreach (array('wordpress'=>'WordPress','woocommerce'=>'WooCommerce','shopify'=>'Shopify','elementor'=>'Elementor','prestashop'=>'PrestaShop','php'=>'PHP') as $icon => $name) : ?>
+   <li><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/platforms/' . $icon . '.svg'); ?>" alt="" width="30" height="30" loading="lazy"><span><?php echo esc_html($name); ?></span></li>
+  <?php endforeach; ?></ul>
+ <?php else : ?><ul><li>WordPress</li><li>WooCommerce</li><li>Shopify</li><li>Automatización</li><li>Analítica</li><li>OpenAI</li></ul><?php endif; ?></div></section>
 
  <section class="dacriz-landing-problem"><div class="container dacriz-landing-two-cols">
   <div><span class="dacriz-landing-kicker">El reto</span><h2><?php echo esc_html($landing['problem_title']); ?></h2></div>
-  <div><p><?php echo esc_html($landing['problem_text']); ?></p><a href="#cotizar">Revisemos tu caso <span>↘</span></a></div>
+  <div class="dacriz-landing-problem__content"><p><?php echo esc_html($landing['problem_text']); ?></p><a href="#cotizar">Revisemos tu caso <span>↘</span></a><?php if ($is_web_landing) : ?><figure><img src="<?php echo esc_url($media . 'desarrollo-web-dacriz.webp'); ?>" alt="Planificación de una experiencia web profesional" width="1600" height="1067" loading="lazy"><figcaption><strong>Estrategia + diseño + tecnología</strong><span>Una solución alineada con tus objetivos comerciales.</span></figcaption></figure><?php endif; ?></div>
  </div></section>
 
  <section class="dacriz-landing-benefits"><div class="container">
   <div class="dacriz-landing-heading"><span class="dacriz-landing-kicker">Cómo te ayudamos</span><h2>Una solución clara, implementada de principio a fin</h2></div>
   <div class="dacriz-landing-benefits__grid"><?php foreach ($landing['benefits'] as $index => $benefit) : ?>
-   <article><span>0<?php echo esc_html($index + 1); ?></span><h3><?php echo esc_html($benefit[0]); ?></h3><p><?php echo esc_html($benefit[1]); ?></p></article>
+   <article><?php if ($is_web_landing) : $benefit_images = array('siec-uniformes.webp', 'cerveceria-del-valle.webp', 'pharmavet-corporation.webp'); ?><div class="dacriz-benefit-image"><img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/proyectos/' . $benefit_images[$index]); ?>" alt="Ejemplo de proyecto web desarrollado por Dacriz" width="900" height="560" loading="lazy"></div><?php endif; ?><span>0<?php echo esc_html($index + 1); ?></span><h3><?php echo esc_html($benefit[0]); ?></h3><p><?php echo esc_html($benefit[1]); ?></p></article>
   <?php endforeach; ?></div>
  </div></section>
 
  <section class="dacriz-landing-deliverables"><div class="container dacriz-landing-deliverables__grid">
-  <div><span class="dacriz-landing-kicker">Qué incluye</span><h2>Todo lo necesario para poner la solución en marcha</h2><p>El alcance final se adapta a tu situación, objetivos y herramientas actuales.</p></div>
+  <div><span class="dacriz-landing-kicker">Qué incluye</span><h2>Todo lo necesario para poner la solución en marcha</h2><p>El alcance final se adapta a tu situación, objetivos y herramientas actuales.</p><?php if ($is_web_landing) : ?><figure class="dacriz-deliverables-visual"><img src="<?php echo esc_url($media . 'ecommerce-responsive-dacriz.webp'); ?>" alt="Sitio web adaptable a escritorio, tablet y celular" width="1600" height="1067" loading="lazy"></figure><?php endif; ?></div>
   <ul><?php foreach ($landing['deliverables'] as $index => $item) : ?><li><span><?php echo esc_html(str_pad((string) ($index + 1), 2, '0', STR_PAD_LEFT)); ?></span><?php echo esc_html($item); ?></li><?php endforeach; ?></ul>
  </div></section>
 
